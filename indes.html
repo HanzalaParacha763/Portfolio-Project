@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <!-- Navbar -->
+
+    <section id="Navigation-bar">
+        <header>
+            <div class="navbar">
+                <div class="brand">
+                    <h1><span>H</span>anzala <span>A</span>amir</h1>
+                </div>
+                <ul class="links">
+                    <li><a href="#hero">Start</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="toggle_btn">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+            <div class="dropdown_menu">
+                <li><a href="#hero">Start</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </div><script>
+                const toggleBtn = document.querySelector('.toggle_btn')
+                const toggleBtnIcon = document.querySelector('.toggle_btn i')
+                const dropDownMenu = document.querySelector('.dropdown_menu')
+    
+                toggleBtn.onclick = function(){
+                    dropDownMenu.classList.toggle('open')
+                    const isOpen = dropDownMenu.classList.contains('open')
+                    toggleBtnIcon.classList = isOpen
+                    ? 'fa-solid fa-xmark'
+                    : 'fa-solid fa-bars'
+                }
+            </script>
+        </header>
+    
+    </section>
+    <!-- End of Navbar -->
+
+
+    <!-- Hero section  -->
+    
+    <section id="hero">
+        <div class="hero container">
+            <div>
+                <h1>Hello, <span></span></h1>
+                <h1> My name is <span></span></h1>
+                <h1>Hanzala <span></span></h1>
+                <a class="cta" href="#">Portfolio</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- End of Hero section  -->
+    
+    <!-- Service Section -->
+    
+    <section id="services">
+        <div class="services container">
+            <div class="services-top">
+                <h1 class="section-title">Serv<span>i</span>ces</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, laudantium minima. Ex delectus adipisci sequi veritatis ad voluptatum iusto perferendis error recusandae aspernatur vero, non voluptatem eveniet, similique, repellendus quae?</p>
+            </div>
+            <div class="services-bottom">
+                <div class="services-item">
+                    <div class="icon">
+                        <img src="https://img.icons8.com/?size=80&id=dAGhaVRSty3p&format=png" alt="">
+                    </div>    
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam earum id placeat aliquid soluta omnis. Tenetur blanditiis quas qui animi vel dolorem itaque sunt minima. Porro, ullam eaque? Dolore, deserunt!</p>
+                </div>
+                <div class="services-item">
+                    <div class="icon">
+                        <img src="https://img.icons8.com/?size=80&id=dAGhaVRSty3p&format=png" alt="">
+                    </div>    
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam earum id placeat aliquid soluta omnis. Tenetur blanditiis quas qui animi vel dolorem itaque sunt minima. Porro, ullam eaque? Dolore, deserunt!</p>
+                </div>
+                <div class="services-item">
+                    <div class="icon">
+                        <img src="https://img.icons8.com/?size=80&id=dAGhaVRSty3p&format=png" alt="">
+                    </div>    
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam earum id placeat aliquid soluta omnis. Tenetur blanditiis quas qui animi vel dolorem itaque sunt minima. Porro, ullam eaque? Dolore, deserunt!</p>
+                </div>
+                <div class="services-item">
+                    <div class="icon">
+                        <img src="https://img.icons8.com/?size=80&id=dAGhaVRSty3p&format=png" alt="">
+                    </div>    
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam earum id placeat aliquid soluta omnis. Tenetur blanditiis quas qui animi vel dolorem itaque sunt minima. Porro, ullam eaque? Dolore, deserunt!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- End of Service Section -->
+    
+    <!-- Project Section -->
+    
+    <section id="projects">
+        <div class="projects contianer">
+            <div class="projects-header">
+                <h1 class="section-title">Recent <span>Projects</span></h1>
+            </div>
+            <div class="all-projects">
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>Project 1</h1>
+                        <h2>Coding Is Love</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate nihil minima voluptatem cupiditate aperiam blanditiis saepe cumque, laborum eaque! Delectus nulla nesciunt eligendi ex vitae, numquam excepturi sapiente aliquid exercitationem?</p>
+                    </div>
+                    <div class="project-image">
+                        <img src="./img/4.jpg" alt="img">
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>Project 2</h1>
+                        <h2>Coding Is Love</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate nihil minima voluptatem cupiditate aperiam blanditiis saepe cumque, laborum eaque! Delectus nulla nesciunt eligendi ex vitae, numquam excepturi sapiente aliquid exercitationem?</p>
+                    </div>
+                    <div class="project-image">
+                        <img src="./img/4.jpg" alt="img">
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>Project 3</h1>
+                        <h2>Coding Is Love</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate nihil minima voluptatem cupiditate aperiam blanditiis saepe cumque, laborum eaque! Delectus nulla nesciunt eligendi ex vitae, numquam excepturi sapiente aliquid exercitationem?</p>
+                    </div>
+                    <div class="project-image">
+                        <img src="./img/4.jpg" alt="img">
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>Project 4</h1>
+                        <h2>Coding Is Love</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate nihil minima voluptatem cupiditate aperiam blanditiis saepe cumque, laborum eaque! Delectus nulla nesciunt eligendi ex vitae, numquam excepturi sapiente aliquid exercitationem?</p>
+                    </div>
+                    <div class="project-image">
+                        <img src="./img/4.jpg" alt="img">
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>Project 5</h1>
+                        <h2>Coding Is Love</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate nihil minima voluptatem cupiditate aperiam blanditiis saepe cumque, laborum eaque! Delectus nulla nesciunt eligendi ex vitae, numquam excepturi sapiente aliquid exercitationem?</p>
+                    </div>
+                    <div class="project-image">
+                        <img src="./img/4.jpg" alt="img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>  
+
+    <!-- End of Project Section -->
+    
+    <!-- About Section -->
+
+    <section id="about">
+        <div class="about container">
+            <div class="col-left">
+                <div class="about-img">
+                    <img src="./img/me2.jpg" alt="#">
+                </div>
+                <div class="img-end"></div>
+            </div>
+            <div class="col-right">
+                <h1 class="section-title">About <span>me</span></h1>
+                <h2>Front end Web Developer</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat veritatis voluptatum dolorum odit culpa, a fugiat tempora. Mollitia corporis perferendis, quisquam esse quidem architecto, sapiente sunt, omnis ipsa quis inventore!</p>
+                <a class="cta" href="#">Download Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- End of About Section -->
+
+    <!-- Contact Section -->
+
+    <section id="contact">
+        <div class="contact container">
+            <div><h1 class="section-title">Contact <span>info</span></h1></div>
+        </div>
+        <div class="contact-items">
+            <div class="contact-item">
+                <div class="icon">
+                    <img src="https://img.icons8.com/?size=80&id=108644&format=png" >
+                </div>
+                <div class="contact-info">
+                    <h1>Phone</h1>
+                    <h2>+92 331 518 3696</h2>
+                    <h2>+92 331 518 3696</h2>
+                </div>
+            </div>
+            <div class="contact-item">
+                <div class="icon">
+                    <img src="https://img.icons8.com/?size=80&id=109463&format=png" >
+                </div>
+                <div class="contact-info">
+                    <h1>Email</h1>
+                    <h2>hanzalaaamir763@gmail.com</h2>
+                    <h2>hanzalaaamir764@gmail.com</h2>
+                </div>
+            </div>
+            <div class="contact-item">
+                <div class="icon">
+                    <img src="https://img.icons8.com/?size=80&id=113795&format=png" >
+                </div>
+                <div class="contact-info">
+                    <h1>Address</h1>
+                    <h2>Hayatabad, Peshawar</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End of Contact Section -->
+
+    <!-- Footer Section -->
+
+    <section id="footer">
+        <div class="footer container">
+            <div class="brand">
+                <h1><span>H</span>anzala <span>A</span>amir</h1>
+            </div>
+            <h2>Your complete web solution</h2>
+            <div class="social-icon">
+                <div class="social-item">
+                    <a href="#"><img src="https://img.icons8.com/?size=80&id=118555&format=png" alt=""></a>
+                </div>
+                <div class="social-item">
+                    <a href="#"><img src="https://img.icons8.com/?size=80&id=108646&format=png" alt=""></a>
+                </div>
+                <div class="social-item">
+                    <a href="#"><img src="https://img.icons8.com/?size=80&id=108650&format=png" alt=""></a>
+                </div>
+                <div class="social-item">
+                    <a href="#"><img src="https://img.icons8.com/?size=80&id=108812&format=png" alt=""></a>
+                </div>
+            </div>
+            <p>Copyright © 2023 Hanzala. All rights reserved</p>
+        </div>
+    </section>
+
+    <!-- End of Footer Section -->
+</body>
+</html>
